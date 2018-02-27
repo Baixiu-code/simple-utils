@@ -4,6 +4,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+
+import org.apache.commons.lang.time.FastDateFormat;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.joda.time.Duration;
@@ -182,9 +184,16 @@ public class DateUtils {
 				return 0l;
 			}
 		}
-		return 0l;
+		return 0L;
+	}
+	public static String getDate(){
+		return null;
 	}
 	public static void main(String args[]) throws ParseException {
+		FastDateFormat sdf=FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss");
+		Calendar calendar=Calendar.getInstance();
+		calendar.add(Calendar.DAY_OF_MONTH,-1);
+		System.out.println(sdf.format(calendar.getTime()));
 		System.out.println("Date格式：现在的时间是："+new Date());
 		System.out.println("joda-time：现在的时间是："+new DateTime());
 
@@ -206,17 +215,17 @@ public class DateUtils {
 		timeStmap2Long(strDate2);
 
 		System.out.println((longToDateTime(121211L).toString("MM/dd/yyyy hh:mm:ss.SSSa")));
-		Calendar calendar=Calendar.getInstance();
-		LocalTime localTime=new LocalTime(calendar);
-		System.out.println("由calendar转化为localtime的时间："+localTime.toString());
-		System.out.println("今天是农历"+(new LunarDateUtils(calendar)));
-		System.out.println("获取洛杉矶时间："+getZoneDateTime("America/Los_Angeles"));
-		System.out.println(minusDate((new DateTime()),new DateTime()));
-		//某天是否存在于区间内
-		Interval i = new Interval(new DateTime("2012-02-01"), new DateTime("2012-04-01"));
-		System.out.println( i.contains(new DateTime("2012-03-01")));
-		DateTime dt=new DateTime();
-		System.out.println(dt.plusDays(1));
-		System.out.println(strToLong("2017-02-21"));
+//		Calendar calendar=Calendar.getInstance();
+//		LocalTime localTime=new LocalTime(calendar);
+//		System.out.println("由calendar转化为localtime的时间："+localTime.toString());
+//		System.out.println("今天是农历"+(new LunarDateUtils(calendar)));
+//		System.out.println("获取洛杉矶时间："+getZoneDateTime("America/Los_Angeles"));
+//		System.out.println(minusDate((new DateTime()),new DateTime()));
+//		//某天是否存在于区间内
+//		Interval i = new Interval(new DateTime("2012-02-01"), new DateTime("2012-04-01"));
+//		System.out.println( i.contains(new DateTime("2012-03-01")));
+//		DateTime dt=new DateTime();
+//		System.out.println(dt.plusDays(1));
+//		System.out.println(strToLong("2017-02-21"));
 	}
 }
