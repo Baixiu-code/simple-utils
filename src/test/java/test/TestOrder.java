@@ -18,17 +18,15 @@ public class TestOrder {
         File sourceFile = new File("/Users/chenfanglin/Desktop/fresh_product.txt");
         InputStreamReader  inputStream=new InputStreamReader(new FileInputStream(sourceFile));
         BufferedReader bufferedReader=new BufferedReader(inputStream);
-        String urlInstance="https://m.wecash.net//platform/codisCache/del?key=mall:pd:ins:v2:";
-        String urlSpec="https://m.wecash.net//platform/codisCache/del?key=mall_product_spec_cache_key:";
 
         String lineTxt;
-        while ((lineTxt=bufferedReader.readLine())!=null) {
-            String productId = lineTxt.trim();
-            System.out.println(productId);
-            String result1 = HttpClientUtil.doGet(urlInstance + productId);
-            String result2 = HttpClientUtil.doGet(urlSpec + productId);
-            System.out.println(productId+":处理成功");
-        }
+//        while ((lineTxt=bufferedReader.readLine())!=null) {
+//            String productId = lineTxt.trim();
+//            System.out.println(productId);
+//            String result1 = HttpClientUtil.doGet(urlInstance + productId);
+//            String result2 = HttpClientUtil.doGet(urlSpec + productId);
+//            System.out.println(productId+":处理成功");
+//        }
     }
 
 }
