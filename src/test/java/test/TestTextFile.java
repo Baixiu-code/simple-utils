@@ -15,17 +15,17 @@ import java.util.TreeMap;
 public class TestTextFile {
 
     public static void main(String[] args) throws Exception {
-//        File sourceFile = new File("/Users/chenfanglin/Desktop/update_amount.txt");
-//        InputStreamReader inputStream = new InputStreamReader(new FileInputStream(sourceFile));
-//        BufferedReader bufferedReader = new BufferedReader(inputStream);
-////        String urlInstance = "https://m.wecash.net/mall/product/order/updateOrder?orderNo=";
-//        String lineTxt;
-//        while ((lineTxt = bufferedReader.readLine()) != null) {
-//            String skuCode = lineTxt.trim() + "&status=2";
-//            System.out.println(skuCode);
-//            String result1 = HttpClientUtil.doGet(urlInstance + skuCode);
-//            System.out.println(skuCode + ":处理成功" + result1);
-//        }
+        File sourceFile = new File("/Users/chenfanglin/Desktop/update_amount.txt");
+        InputStreamReader inputStream = new InputStreamReader(new FileInputStream(sourceFile));
+        BufferedReader bufferedReader = new BufferedReader(inputStream);
+//        String urlInstance = "https://m..net/mall/product/order/updateOrder?orderNo=";
+        String lineTxt;
+        while ((lineTxt = bufferedReader.readLine()) != null) {
+            String skuCode = lineTxt.trim() + "&status=2";
+            System.out.println(skuCode);
+            String result1 = HttpClientUtil.doGet(urlInstance + skuCode);
+            System.out.println(skuCode + ":处理成功" + result1);
+        }
     }
 
 }

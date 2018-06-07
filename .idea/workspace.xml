@@ -18,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestTextFile.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestTextFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpClientUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpClientUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+            <state relative-caret-position="190">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/pattern/proxy/DynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestAssert.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/test/TestTextFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestTextFile.java" />
       </list>
     </option>
   </component>
@@ -432,12 +432,12 @@
       <workItem from="1527475705681" duration="658000" />
       <workItem from="1527570455281" duration="2452000" />
       <workItem from="1528082866479" duration="583000" />
-      <workItem from="1528355348623" duration="5945000" />
+      <workItem from="1528355348623" duration="6026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54695000" />
+    <option name="totallyTimeSpent" value="54776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -456,10 +456,10 @@
       <window_info anchor="bottom" id="Run" order="8" weight="0.2628798" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32919955" />
       <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.29689807" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.29689807" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49107143" visible="true" weight="0.3090129" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49107143" visible="true" weight="0.3090129" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
@@ -882,17 +882,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTextFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTextFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
