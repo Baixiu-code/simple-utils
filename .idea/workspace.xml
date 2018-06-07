@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abd33a59-dbc2-473e-b6d4-5f9601f4cc4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/collections/linklist/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/model/UploadResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/util/FileUploadUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/util/IOUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/util/JsonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/util/ThreadUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestCalendar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestEventBus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestFreshUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestListSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestTextFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestReadExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestReadTxt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/TestArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/algorithm/TestQuickSortStandard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/algorithm/general/TestQuickSortStandard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/bitope/TestBitOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/bitope/TestBitOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/cglib/TestCglib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/cglib/TestCglib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/cglib/TestCglibMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/cglib/TestCglibMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/excutesort/TestExcuteSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestExcuteSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/excutesort/TestExcuteSortSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestExcuteSortSuper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/fastdateformat/TestDateFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/integer/TestInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/lamdba/TestLamdba.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/linklist/LinkList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/linklist/TestLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/collections/linklist/TestLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/map/TestTreeMapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/collections/linklist/TestTreeMapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/shuixianhua/exp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/algorithm/general/PrintShuixianhua.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/singleton/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/TestSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestInterrupted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestInterrupted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestRunStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestRunStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestStopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestStopThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestSuspendResume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestSuspendResume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestThreadPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestThreadPriority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestThreadSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/base/structure/thread/TestYieldThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestYieldThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/address/AddProductItemDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/address/AddProductSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/address/SkuValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/address/TestAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/concurrent/TestCountdownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/concurrent/TestCountdownLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/proxy/dynamic/Boss.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/proxy/dynamic/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/proxy/dynamic/DynamicProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/proxy/dynamic/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/proxy/dynamic/Secretary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/thread/volatiletest/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/j2se/thread/volatiletest/RunnableThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestTextFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestTextFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestTextFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -170,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestExcuteSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TestOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/algorithm/general/exp2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/algorithm/general/PrintShuixianhua.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/collections/linklist/LinkList.java" />
@@ -179,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/pattern/proxy/DynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestAssert.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestTextFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java" />
       </list>
     </option>
   </component>
@@ -203,7 +153,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -246,6 +196,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="craftsman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="craftsman" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simple-util" type="b2602c69:ProjectViewProjectNode" />
@@ -473,15 +432,15 @@
       <workItem from="1527475705681" duration="658000" />
       <workItem from="1527570455281" duration="2452000" />
       <workItem from="1528082866479" duration="583000" />
-      <workItem from="1528355348623" duration="2311000" />
+      <workItem from="1528355348623" duration="5945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51061000" />
+    <option name="totallyTimeSpent" value="54695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -494,10 +453,10 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.2628798" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.2628798" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32919955" />
       <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.2655218" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.29689807" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49107143" visible="true" weight="0.3090129" />
@@ -721,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/JxlExcelUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1796">
@@ -932,8 +884,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTextFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
         </state>
       </provider>
     </entry>
