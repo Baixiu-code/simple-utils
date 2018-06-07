@@ -77,6 +77,10 @@ public class HttpClientUtil {
 		try {
 			// 创建Http Post请求
 			HttpPost httpPost = new HttpPost(url);
+			httpPost.setHeader("market-token","C89FE339EF2748FB9716FCEECFD3D63E_0");
+			httpPost.setHeader("Host","beta-mall-system.wecash.net");
+			httpPost.setHeader("Referer","http://beta-mall-system.wecash.net/home/order");
+			httpPost.setHeader("sysCode","market");
 			// 创建参数列表
 			if (param != null) {
 				List<NameValuePair> paramList = new ArrayList();
@@ -137,7 +141,5 @@ public class HttpClientUtil {
 		return resultString;
 	}
 
-	public static void main(String[] args) {
-		System.out.println("test");
-	}
+
 }
