@@ -41,7 +41,6 @@ public class HttpClientUtil {
 			// 创建http GET请求
 			HttpGet httpGet = new HttpGet(uri);
 			httpGet.addHeader("market-token","57C43F2ADB5F4D27B61BF3DB1168B7FD_0");
-			httpGet.addHeader("Referer","http://beta-mall.system.wecash.net/home/order");
 			httpGet.addHeader("sysCode","market");
 
 			// 执行请求
@@ -78,7 +77,6 @@ public class HttpClientUtil {
 			// 创建Http Post请求
 			HttpPost httpPost = new HttpPost(url);
 			httpPost.setHeader("market-token","C89FE339EF2748FB9716FCEECFD3D63E_0");
-			httpPost.setHeader("Host","beta-mall-system.wecash.net");
 			httpPost.setHeader("sysCode","market");
 			// 创建参数列表
 			if (param != null) {
