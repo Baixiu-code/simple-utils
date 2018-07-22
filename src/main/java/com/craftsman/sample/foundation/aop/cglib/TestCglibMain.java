@@ -1,4 +1,4 @@
-package com.craftsman.sample.foundation.cglib;
+package com.craftsman.sample.foundation.aop.cglib;
 
 /**
  * @Author chenfanglin 【chenfanglincfl@163.com】

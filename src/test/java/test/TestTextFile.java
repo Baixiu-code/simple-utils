@@ -23,7 +23,7 @@ public class TestTextFile {
         while ((lineTxt = bufferedReader.readLine()) != null) {
             String skuCode = lineTxt.trim() + "&status=2";
             System.out.println(skuCode);
-            String result1 = HttpClientUtil.doGet(urlInstance + skuCode);
+            String result1 = HttpClientUtil.doGet(skuCode);
             System.out.println(skuCode + ":处理成功" + result1);
         }
     }
