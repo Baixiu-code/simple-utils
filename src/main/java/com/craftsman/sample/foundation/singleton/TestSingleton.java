@@ -8,8 +8,14 @@ import com.craftsman.sample.foundation.thread.TestThread;
  * @Date 2017/4/2717:37
  */
 public class TestSingleton {
+
     public static TestSingleton singleton;
-    /*单例双重检锁方式获取对象单例*/
+
+    /**
+     * 实现延迟初始化的优
+     * 化问题隐患
+     * @return
+     */
     public static TestSingleton getSingleton(){
         if (singleton==null){
             synchronized (TestSingleton.class){
