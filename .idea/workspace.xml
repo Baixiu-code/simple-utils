@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd8c988d-a9df-4f0a-abfc-c6106133a907" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/DoubleCheckSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/TestSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/InnerClassSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleCheckSingleton.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoubleCheckSingleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/DoubleCheckSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InnerClassSingleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/InnerClassSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/TestSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/NormalSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/DoubleCheckSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/InnerClassSingleton.java" />
       </list>
     </option>
   </component>
@@ -466,12 +478,12 @@
       <workItem from="1528082866479" duration="583000" />
       <workItem from="1528355348623" duration="6026000" />
       <workItem from="1530112328279" duration="1500000" />
-      <workItem from="1532270287038" duration="3114000" />
+      <workItem from="1532270287038" duration="3467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63618000" />
+    <option name="totallyTimeSpent" value="63971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -578,7 +590,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestCalendar.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/TestArray.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/util/FileUploadUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/thread/TestThread.java">
@@ -913,6 +924,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/craftsman/sample/foundation/singleton/InnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
