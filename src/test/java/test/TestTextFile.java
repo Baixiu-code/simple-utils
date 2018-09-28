@@ -1,12 +1,7 @@
 package test;
 
 import com.craftsman.util.HttpClientUtil;
-import com.google.common.collect.Maps;
-import com.sun.deploy.net.HttpUtils;
-
 import java.io.*;
-import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * @Author chenfanglin 【chenfanglincfl@163.com】

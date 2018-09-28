@@ -4,17 +4,16 @@ package test.mq;
 import com.google.common.collect.Lists;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
-
 import java.util.List;
 
 /**
  * @author chenfanglin
- * @desc 测试 refrence
+ * @desc 测试 reference
  */
-public class TestRefrence {
+public class TestReference {
     private static List<String> STRS= Lists.newArrayList("12","1212","232");
     public static void main(String[] args) {
-        //test refrence
+        //test reference
         String str;
         List<String> result=Lists.newArrayList();
         for (int i=0;i<5;i++){
@@ -25,6 +24,7 @@ public class TestRefrence {
             System.out.println(item);
         });
 
+        //test jsonArray reference edit
         JSONArray jsonArray=JSONArray.fromObject("[{\n" +
                 "  \"url\": \"https://qqe2.com\",\n" +
                 "  \"name\": \"欢迎使用JSON在线解析编辑器\",\n" +
@@ -47,5 +47,10 @@ public class TestRefrence {
         for (Object o : jsonArray) {
             System.out.println(o.toString());
         }
+
+        //test jsonObject cast null value
+        String jsonStr=null;
+        JSONObject jsonObjectForTest=JSONObject.fromObject(jsonStr);
+        System.out.println(jsonObjectForTest);
     }
 }
