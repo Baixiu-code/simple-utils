@@ -22,7 +22,7 @@
 		<poi.version>3.10.1</poi.version>
 		<poi-ooxml.version>3.10.1</poi-ooxml.version>
 		<common-lang.version>2.6</common-lang.version>
-		<spring.version>4.1.4.RELEASE</spring.version>
+		<spring.version>5.2.5.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 
