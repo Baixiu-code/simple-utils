@@ -1,4 +1,4 @@
-package com.craftsman.sample.foundation.singleton;
+package com.craftsman.sample.foundation.pattern.singleton;
 
 /**
  * 内部类实现单例

@@ -1,4 +1,4 @@
-package com.craftsman.sample.foundation.singleton;
+package com.craftsman.sample.foundation.pattern.singleton;
 
 /**
  * 一般的双重检查锁的方式单例类实现
