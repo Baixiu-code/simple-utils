@@ -22,7 +22,7 @@
 		<poi.version>3.10.1</poi.version>
 		<poi-ooxml.version>3.10.1</poi-ooxml.version>
 		<common-lang.version>2.6</common-lang.version>
-		<spring.version>4.1.4.RELEASE</spring.version>
+		<spring.version>[4.3.17,)</spring.version>
 	</properties>
 	<dependencies>
 
@@ -123,13 +123,13 @@
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
-			<version>1.9.11</version>
+			<version>1.9.13</version>
 		</dependency>
 
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>1.2.1</version>
+			<version>[1.3.3,)</version>
 		</dependency>
 
 		<dependency>
@@ -181,7 +181,7 @@
 		<dependency>
 			<groupId>org.eclipse.paho</groupId>
 			<artifactId>org.eclipse.paho.client.mqttv3</artifactId>
-			<version>1.0.2</version>
+			<version>1.2.1,)</version>
 		</dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
