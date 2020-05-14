@@ -7,7 +7,7 @@ package com.craftsman.sample.algorithm.general;
 public class PrintShuixianhua{
     public static void main(String args[]){
         int i=0;
-        Math mymath = new Math();
+        MathUtil mymath = new MathUtil();
         for(i=100;i<=999;i++){
             if(mymath.shuixianhua(i)==true){
                 System.out.println(i);
@@ -15,7 +15,7 @@ public class PrintShuixianhua{
         }
     }
 }
-class Math
+class MathUtil
 {
     public int f(int x)
     {
