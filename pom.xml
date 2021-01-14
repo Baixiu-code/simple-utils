@@ -19,7 +19,7 @@
     <packaging>jar</packaging>
 
 	<properties>
-		<poi.version>3.10.1</poi.version>
+		<poi.version>3.17</poi.version>
 		<poi-ooxml.version>3.10.1</poi-ooxml.version>
 		<common-lang.version>2.6</common-lang.version>
 		<spring.version>[4.3.17,)</spring.version>
