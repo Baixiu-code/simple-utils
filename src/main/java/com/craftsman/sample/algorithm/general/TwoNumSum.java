@@ -1,5 +1,9 @@
 package com.craftsman.sample.algorithm.general;
 
+import com.google.common.collect.Maps;
+
+import java.util.Map;
+
 /**
  * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  *
@@ -24,7 +28,21 @@ public class TwoNumSum {
                     }
                 }
             }
-        throw new IllegalArgumentException("No two sum solution");
+        return null;
+    }
+
+    public static int[] twoSumOptimize(int[] nums,int target){
+        Map<Integer,Integer> numMaps= Maps.newHashMapWithExpectedSize(nums.length);
+        for (int i=0;i< nums.length;i++) {
+            numMaps.put(nums[i],i);
+        }
+        for(int i=0;i<nums.length;i++){
+            int leftNum=target-nums[i];
+            if(numMaps.get(leftNum)!=i && numMaps.get(leftNum)==target-nums[i]){
+                return new int[]{i,numMaps.get(leftNum)};
+            }
+        }
+        return null;
     }
 
     public static void main(String[] args) {
@@ -33,5 +51,6 @@ public class TwoNumSum {
         nums[1]=2;
         nums[2]=4;
         System.out.println(twoSum(nums,6));
+        System.out.println(twoSumOptimize(nums,6));
     }
 }
