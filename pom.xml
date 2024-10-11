@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.1.RELEASE</version>
+		<version>2.7.14</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -29,7 +29,7 @@
 		<poi.version>3.10.1</poi.version>
 		<poi-ooxml.version>3.10.1</poi-ooxml.version>
 		<common-lang.version>2.6</common-lang.version>
-		<spring.version>[4.3.17,)</spring.version>
+		<spring.version>4.3.17.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 
@@ -125,8 +125,6 @@
 			<version>1.7.1</version>
 		</dependency>
 
-
-
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
@@ -194,7 +192,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.0</version>
-            <scope>test</scope>
         </dependency>
         <!-- mqtt end -->
 		<!--rocketmq start-->
@@ -204,11 +201,6 @@
 			<version>3.2.6</version>
 		</dependency>
 		<!--rocketmq end-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.10</version>
-        </dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
@@ -251,7 +243,23 @@
 			<artifactId>QLExpress</artifactId>
 			<version>3.2.2</version>
 		</dependency>
-
+		<!-- 其他依赖 -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version> <!-- 使用Log4j 1.x版本 -->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.17.1</version> <!-- 根据实际情况选择版本 -->
+		</dependency>
+		<!-- 如果需要实现，也需要添加log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.17.1</version> <!-- 版本与log4j-api一致 -->
+		</dependency>
 
 	</dependencies>
 </project>

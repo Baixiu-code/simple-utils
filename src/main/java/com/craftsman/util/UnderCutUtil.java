@@ -42,10 +42,11 @@ public class UnderCutUtil {
     }
     
     public static int hashByStr(String dataStr){
-        int seed = 31;          // never change
+        // never change
+        int seed = 31;         
         byte[] dataBytes = new byte[0];
         try {
-            dataBytes = data.getBytes("utf-8");
+            dataBytes = dataStr.getBytes("utf-8");
         } catch (UnsupportedEncodingException e) {
         }
         return hash(dataBytes, 0, dataBytes.length, seed);
